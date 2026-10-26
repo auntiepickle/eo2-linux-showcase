@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>EO2 Linux: all the details</title>
+<meta name="description" content="Everything EO2 Linux does on the Electric Objects EO2 art frame: the art and its credits, clocks, machines and games, location and filters, the phone app, adding your own scenes and packs, the install and the status.">
+<link rel="canonical" href="https://auntiepickle.github.io/eo2-linux-showcase/more.html">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="preload" href="fonts/figtree.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/fraunces-roman.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="site.css">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://auntiepickle.github.io/eo2-linux-showcase/more.html">
+<meta property="og:title" content="EO2 Linux: all the details">
+<meta property="og:description" content="The art and its credits, clocks, machines and games, location and filters, the phone app, adding your own, the install and the status of EO2 Linux, new software for the Electric Objects EO2.">
+<meta property="og:image" content="https://auntiepickle.github.io/eo2-linux-showcase/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Illustration: an EO2 hung on a nail on green striped wallpaper, showing the Workshop machine, beside the EO2 Linux name and the note Not released yet">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="EO2 Linux: all the details">
+<meta name="twitter:description" content="The art and its credits, clocks, machines and games, location and filters, the phone app, adding your own, the install and the status of EO2 Linux, new software for the Electric Objects EO2.">
+<meta name="twitter:image" content="https://auntiepickle.github.io/eo2-linux-showcase/img/og.jpg">
+<meta name="twitter:image:alt" content="Illustration: an EO2 hung on a nail on green striped wallpaper, showing the Workshop machine, beside the EO2 Linux name and the note Not released yet">
+<meta name="theme-color" content="#1E3328">
+</head>
+<body id="top">
+<a class="skip" href="#main">Skip to the content</a>
+
+<header class="pagehead">
+  <div class="wrap">
+    <nav class="topbar topbar--sub" aria-label="Site">
+      <a class="brand" href="./"><img src="img/wordmark.svg" width="108" height="26" alt="EO2 Linux, the overview"></a>
+      <a class="back" href="./">&larr; Back to the overview</a>
+    </nav>
+    <h1>All the details</h1>
+    <p>Everything EO2 Linux does, how each picture on these pages was made, and where the project stands.</p>
+    <ul class="toc" aria-label="On this page">
+      <li><a href="#about">The frame</a></li>
+      <li><a href="#art">Art</a></li>
+      <li><a href="#clocks">Clocks and weather</a></li>
+      <li><a href="#living">Living scenes</a></li>
+      <li><a href="#machines">Machines</a></li>
+      <li><a href="#games">Games</a></li>
+      <li><a href="#day">Location and time of day</a></li>
+      <li><a href="#filters">Filters</a></li>
+      <li><a href="#app">The phone app</a></li>
+      <li><a href="#yours">Adding your own</a></li>
+      <li><a href="#revive">Bringing an EO2 back</a></li>
+      <li><a href="#status">Status</a></li>
+    </ul>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============================================================ THE FRAME -->
+  <section id="about" class="band">
+    <div class="wrap">
+      <h2>The frame and the software</h2>
+      <p>The Electric Objects EO2 is a screen in a picture frame, made in 2016 for hanging art on a wall. The frame relied on the company&rsquo;s servers, and when they went away the EO2s stopped working. An EO2 left on its original software usually shows &ldquo;Unable to reach Electric Objects servers&rdquo;.</p>
+      <p>EO2 Linux is new software for the frame that needs no servers and no account. You control it from a phone on your home Wi-Fi. I built it for my own EO2, which runs it every day.</p>
+      <div class="onwall">
+        <a class="trio" href="media/mockups/eo2-trio-art-contraption-clock.jpg"><img loading="lazy" decoding="async" src="media/mockups/web/eo2-trio-art-contraption-clock.jpg" srcset="media/mockups/web/eo2-trio-art-contraption-clock.jpg 1200w, media/mockups/eo2-trio-art-contraption-clock.jpg 2400w" sizes="(min-width: 1160px) 780px, (min-width: 760px) 68vw, 100vw" width="1200" height="662" alt="Illustration: three EO2 frames on a wall, showing Hokusai's Yoro Waterfall in Mino Province, the Workshop machine and an analog clock"></a>
+        <a class="single" href="media/mockups/eo2-wall-game-minigolf.jpg"><img loading="lazy" decoding="async" src="media/mockups/web/eo2-wall-game-minigolf.jpg" width="800" height="1075" alt="Illustration: one EO2 on a wall, playing Mini golf at the windmill hole"></a>
+      </div>
+      <p class="label"><span class="kind">Illustration</span>In these pictures the frames and the wall are drawn. The screens are captures from my frame, except the clock, which was rendered on a laptop.</p>
+      <div class="facts">
+        <div><b>Drawn on the frame</b><span>A 2016 board with four ARM Cortex-A5 cores and under 1&nbsp;GB of memory computes every scene.</span></div>
+        <div><b>Up to 20 frames a second</b><span>Full-resolution scenes play at 1080&times;1920. The LED-dot looks run at up to 30.</span></div>
+        <div><b>No account</b><span>Apart from setting its clock at start-up, the frame goes online only for what you switch on, such as the weather, museum art or a web page.</span></div>
+        <div><b>Run from your phone</b><span>The frame serves its own app over Wi-Fi, so nothing comes from an app store. Home Assistant can control it too.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ WHAT IT SHOWS -->
+  <section id="shows" class="band band--alt band--tight">
+    <div class="wrap">
+      <h2>What it shows</h2>
+      <p>Everything on the frame is a piece in a gallery. You hang one or more galleries, and the frame moves through their pieces on a timer. Your own photos and videos go in from a phone.</p>
+      <p class="label"><span class="kind">Captures and laptop renders</span>Unless a section says otherwise, the stills are screen captures from my frame. The clips were rendered on a laptop from the same scene code, at the panel&rsquo;s 1080&times;1920, with a made-up time and weather. Tap a clip for the full-size video.</p>
+    </div>
+  </section>
+
+  <section id="art" class="band band--wall" aria-labelledby="h-art">
+    <div class="wrap">
+      <h3 id="h-art" class="first">Art</h3>
+      <p class="sub">The project&rsquo;s catalog has nine galleries of public-domain art, from the Art Institute of Chicago, The Met, the Cleveland Museum of Art, Wikimedia Commons and the Library of Congress. A picture close to the panel&rsquo;s shape fills it and loses a little at the edges. One that would lose more than a fifth, such as a wide painting or a narrow pillar print, hangs whole with black bars.</p>
+      <div class="hang hang--many">
+        <figure class="work"><a class="frame" href="media/stills/eo2-art-hokusai-yoro-waterfall.jpg"><img loading="lazy" decoding="async" src="media/stills/web/eo2-art-hokusai-yoro-waterfall.jpg" width="540" height="960" alt="Yoro Waterfall in Mino Province, Katsushika Hokusai, c. 1833, on the frame"></a>
+          <figcaption><cite>Yoro Waterfall in Mino Province</cite>Katsushika Hokusai, c.&nbsp;1833, from the series <i>Tour of the Waterfalls in Various Provinces</i>. Art Institute of Chicago.</figcaption></figure>
+        <figure class="work"><a class="frame" href="media/stills/eo2-art-vermeer-water-pitcher.jpg"><img loading="lazy" decoding="async" src="media/stills/web/eo2-art-vermeer-water-pitcher.jpg" width="540" height="960" alt="Young Woman with a Water Pitcher, Johannes Vermeer, c. 1662, on the frame, with black bars above and below"></a>
+          <figcaption><cite>Young Woman with a Water Pitcher</cite>Johannes Vermeer, c.&nbsp;1662. The Met.</figcaption></figure>
+        <figure class="work"><a class="frame" href="media/stills/eo2-art-yoshitoshi-moon-smoke.jpg"><img loading="lazy" decoding="async" src="media/stills/web/eo2-art-yoshitoshi-moon-smoke.jpg" width="540" height="960" alt="Moon and Smoke, Tsukioka Yoshitoshi, 1886, on the frame"></a>
+          <figcaption><cite>Moon and Smoke</cite>Tsukioka Yoshitoshi, 1886, from <i>One Hundred Aspects of the Moon</i>. Art Institute of Chicago.</figcaption></figure>
+        <figure class="work"><a class="frame" href="media/stills/eo2-art-cassatt-the-letter.jpg"><img loading="lazy" decoding="async" src="media/stills/web/eo2-art-cassatt-the-letter.jpg" width="540" height="960" alt="The Letter, Mary Cassatt, 1890–91, on the frame"></a>
+          <figcaption><cite>The Letter</cite>Mary Cassatt, 1890&ndash;91, color aquatint and drypoint. Art Institute of Chicago.</figcaption></figure>
+        <figure class="work"><a class="frame" href="media/stills/eo2-art-hokusai-cranes.jpg"><img loading="lazy" decoding="async" src="media/stills/web/eo2-art-hokusai-cranes.jpg" width="540" height="960" alt="Cranes on Snow-Covered Pine, Katsushika Hokusai, c. 1834, on the frame"></a>
+          <figcaption><cite>Cranes on Snow-Covered Pine</cite>Katsushika Hokusai, c.&nbsp;1834. Art Institute of Chicago.</figcaption></figure>
+        <figure class="work"><a class="frame" href="media/stills/eo2-art-caillebotte-rainy-day.jpg"><img loading="lazy" decoding="async" src="media/stills/web/eo2-art-caillebotte-rainy-day.jpg" width="540" height="960" alt="Paris Street; Rainy Day, Gustave Caillebotte, 1877, on the frame, with black bars above and below"></a>
+          <figcaption><cite>Paris Street; Rainy Day</cite>Gustave Caillebotte, 1877. Art Institute of Chicago.</figcaption></figure>
+        <figure class="work"><a class="frame" href="media/stills/eo2-art-hiroshige-geese-moon.jpg"><img loading="lazy" decoding="async" src="media/stills/web/eo2-art-hiroshige-geese-moon.jpg" width="540" height="960" alt="Wild Geese Flying Across Full Moon, Utagawa Hiroshige, late 1830s, on the frame, with black bars at the sides"></a>
+          <figcaption><cite>Wild Geese Flying Across Full Moon</cite>Utagawa Hiroshige, late 1830s. Art Institute of Chicago.</figcaption></figure>
+        <figure class="work"><a class="frame" href="media/stills/eo2-art-degas-dancer-fan.jpg"><img loading="lazy" decoding="async" src="media/stills/web/eo2-art-degas-dancer-fan.jpg" width="540" height="960" alt="Dancer with a Fan, Edgar Degas, c. 1880, on the frame, with narrow black bars above and below"></a>
+          <figcaption><cite>Dancer with a Fan</cite>Edgar Degas, c.&nbsp;1880, pastel. The Met.</figcaption></figure>
+        <figure class="work"><a class="frame" href="media/stills/eo2-art-hiroshige-kingfisher.jpg"><img loading="lazy" decoding="async" src="media/stills/web/eo2-art-hiroshige-kingfisher.jpg" width="540" height="960" alt="Kingfisher above a Yellow-Flowered Water Plant, Utagawa Hiroshige, 1853, on the frame, with black bars at the sides"></a>
+          <figcaption><cite>Kingfisher above a Yellow-Flowered Water Plant</cite>Utagawa Hiroshige, 1853. Art Institute of Chicago.</figcaption></figure>
+        <figure class="work"><a class="frame" href="media/stills/eo2-art-monet-water-lilies.jpg"><img loading="lazy" decoding="async" src="media/stills/web/eo2-art-monet-water-lilies.jpg" width="540" height="960" alt="Water Lilies, Claude Monet, 1906, on the frame, with black bars above and below"></a>
+          <figcaption><cite>Water Lilies</cite>Claude Monet, 1906. Art Institute of Chicago.</figcaption></figure>
+      </div>
+      <p class="label label--center"><span class="kind">Captures &middot; Gallery light</span>These captures were taken with the Gallery light filter on, which warms the picture and shades its edges.</p>
+    </div>
+  </section>
+
+  <section class="band band--alt" aria-label="Clocks, living scenes, machines and games">
+    <div class="wrap">
+      <h3 id="clocks" class="first">Clocks and weather</h3>
+      <p class="sub">The clock faces come at full resolution and as dot versions. The weather faces show the current conditions, the next 24 hours or the next five days. On the hour, a clockwork moment can take the screen for 8 to 15 seconds and then hand it back. Mine plays the glockenspiel on even hours and the engraved cuckoo on odd ones. The EO2 has no usable speaker, so the bells and the cuckoo make no sound.</p>
+      <div class="grid" style="--cols:6">
+        <figure><a class="frame" href="media/stills/eo2-clock-type.jpg"><img loading="lazy" decoding="async" src="media/stills/web/eo2-clock-type.jpg" width="540" height="960" alt="The Type clock: 10 over 09 in large light numerals, with Sunday 11 October below"></a>
+          <figcaption><b>Type</b>The thin amber line under the minutes is the seconds.</figcaption></figure>
+        <figure><a class="frame" href="media/stills/eo2-clock-wall.jpg"><img loading="lazy" decoding="async" src="media/stills/web/eo2-clock-wall.jpg" width="540" height="960" alt="The Wall clock at 10:09: a dark dial with twelve batons, three hands and the date below"></a>
+          <figcaption><b>Wall clock</b>The amber second hand steps once a second, like a quartz clock.</figcaption></figure>
+        <figure><a class="frame" href="media/stills/eo2-clock-word.jpg"><img loading="lazy" decoding="async" src="media/stills/web/eo2-clock-word.jpg" width="540" height="960" alt="The Word clock: a grid of letters with IT IS FIVE PAST TEN lit and four dots below"></a>
+          <figcaption><b>Word clock</b>The dots count the minutes past the last five, so this one reads 10:09.</figcaption></figure>
+        <figure><a class="frame" href="media/video-hd/eo2-swarm-clock-dots.mp4" aria-label="Swarm clock, full-size video"><video muted loop playsinline preload="none" data-poster="media/posters-sm/eo2-swarm-clock-dots.jpg" src="media/video-sm/eo2-swarm-clock-dots.mp4"></video></a>
+          <figcaption><b>Swarm clock</b>Fireflies drawn in LED dots hold the time and swirl into the new digits at each minute.</figcaption></figure>
+        <figure><a class="frame" href="media/video-hd/eo2-clockwork-glockenspiel.mp4" aria-label="Bavarian glockenspiel, full-size video"><video muted loop playsinline preload="none" data-poster="media/posters-sm/eo2-clockwork-glockenspiel.jpg" src="media/video-sm/eo2-clockwork-glockenspiel.mp4"></video></a>
+          <figcaption><b>Bavarian glockenspiel</b>The big bell strikes once for each hour, after a peal of the small bells.</figcaption></figure>
+        <figure><a class="frame" href="media/video-hd/eo2-clockwork-engraved-cuckoo.mp4" aria-label="Engraved cuckoo, full-size video"><video muted loop playsinline preload="none" data-poster="media/posters-sm/eo2-clockwork-engraved-cuckoo.jpg" src="media/video-sm/eo2-clockwork-engraved-cuckoo.mp4"></video></a>
+          <figcaption><b>Engraved cuckoo</b>Drawn in code to look like a Victorian catalog plate, and animated like a paper cutout.</figcaption></figure>
+      </div>
+      <p class="label"><span class="kind">Laptop renders</span>The three clock faces were rendered on a laptop at a made-up time and date.</p>
+
+      <h3 id="living">Living scenes</h3>
+      <p class="sub">Most of these follow the light outside. The koi pond and the shadow play use the real sun and weather. The mobile and the turntable change with the time of day.</p>
+      <div class="grid" style="--cols:4">
+        <figure><a class="frame" href="media/video-hd/eo2-koi-pond.mp4" aria-label="Koi pond, full-size video"><video muted loop playsinline preload="none" data-poster="media/posters-sm/eo2-koi-pond.jpg" src="media/video-sm/eo2-koi-pond.mp4"></video></a>
+          <figcaption><b>Koi pond</b>Rain puts rings on the water, and the fallen leaf changes with the season.</figcaption></figure>
+        <figure><a class="frame" href="media/video-hd/eo2-shadowplay.mp4" aria-label="Shadow play, full-size video"><video muted loop playsinline preload="none" data-poster="media/posters-sm/eo2-shadowplay.jpg" src="media/video-sm/eo2-shadowplay.mp4"></video></a>
+          <figcaption><b>Shadow play</b>The patch of sun sits where the real sun would put it and moves across the wall through the day.</figcaption></figure>
+        <figure><a class="frame" href="media/video-hd/eo2-turntable.mp4" aria-label="Turntable, full-size video"><video muted loop playsinline preload="none" data-poster="media/posters-sm/eo2-turntable.jpg" src="media/video-sm/eo2-turntable.mp4"></video></a>
+          <figcaption><b>Turntable</b>When Now playing is on, the label shows the track you&rsquo;re listening to.</figcaption></figure>
+        <figure><a class="frame" href="media/stills/eo2-living-mobile.jpg"><img loading="lazy" decoding="async" src="media/stills/web/eo2-living-mobile.jpg" width="540" height="960" alt="A hanging mobile of black, red and yellow painted plates against a pale wall"></a>
+          <figcaption><b>Mobile</b>At night it hangs in the warm pool of a lamp.</figcaption></figure>
+      </div>
+
+      <h3 id="machines">Machines</h3>
+      <p class="sub">Each machine is a chain reaction down a tall wall, with a branch that splits and has to come back together before the end. The part about to move glows for a moment first, so you can follow it from across the room. Runs vary in small ways, like a ball stalling on a plank or the lighter&rsquo;s first click failing.</p>
+      <div class="grid" style="--cols:4">
+        <figure><a class="frame" href="media/video-hd/eo2-contraption-workshop.mp4" aria-label="Workshop, full-size video"><video muted loop playsinline preload="none" data-poster="media/posters-sm/eo2-contraption-workshop.jpg" src="media/video-sm/eo2-contraption-workshop.mp4"></video></a>
+          <figcaption><b>Workshop</b>A dipping bird starts it, and a carved bird springs from a crate at the end.</figcaption></figure>
+        <figure><a class="frame" href="media/video-hd/eo2-contraption-kitchen.mp4" aria-label="Kitchen, full-size video"><video muted loop playsinline preload="none" data-poster="media/posters-sm/eo2-contraption-kitchen.jpg" src="media/video-sm/eo2-contraption-kitchen.mp4"></video></a>
+          <figcaption><b>Kitchen</b>The toaster pops two slices, one to turn on the gas and one to pull the lighter.</figcaption></figure>
+        <figure><a class="frame" href="media/video-hd/eo2-contraption-garden-shed.mp4" aria-label="Garden shed, full-size video"><video muted loop playsinline preload="none" data-poster="media/posters-sm/eo2-contraption-garden-shed.jpg" src="media/video-sm/eo2-contraption-garden-shed.mp4"></video></a>
+          <figcaption><b>Garden shed</b>The water splits at a Y, and both latches must lift before the gate opens.</figcaption></figure>
+      </div>
+
+      <h3 id="games">Games</h3>
+      <p class="sub">The frame plays these itself. Shots, misses and the marbles&rsquo; routes are worked out fresh each run.</p>
+      <div class="grid" style="--cols:4">
+        <figure><a class="frame" href="media/video-hd/eo2-marble-race-sky-gantry.mp4" aria-label="Sky gantry race, full-size video"><video muted loop playsinline preload="none" data-poster="media/posters-sm/eo2-marble-race-sky-gantry.jpg" src="media/video-sm/eo2-marble-race-sky-gantry.mp4"></video></a>
+          <figcaption><b>Sky gantry race</b>A marble that falls sits out three seconds at its checkpoint while the others go by.</figcaption></figure>
+        <figure><a class="frame" href="media/video-hd/eo2-marble-machine.mp4" aria-label="Marble run, full-size video"><video muted loop playsinline preload="none" data-poster="media/posters-sm/eo2-marble-machine.jpg" src="media/video-sm/eo2-marble-machine.mp4"></video></a>
+          <figcaption><b>Marble run</b>Each run rolls a different marble, and the label at the top names it.</figcaption></figure>
+        <figure><a class="frame" href="media/video-hd/eo2-minigolf.mp4" aria-label="Mini golf, full-size video"><video muted loop playsinline preload="none" data-poster="media/posters-sm/eo2-minigolf.jpg" src="media/video-sm/eo2-minigolf.mp4"></video></a>
+          <figcaption><b>Mini golf</b>Two or three players take turns, and after six holes a plaque names the winner.</figcaption></figure>
+        <figure><a class="frame" href="media/video-hd/eo2-pool.mp4" aria-label="Pool hall, full-size video"><video muted loop playsinline preload="none" data-poster="media/posters-sm/eo2-pool.jpg" src="media/video-sm/eo2-pool.mp4"></video></a>
+          <figcaption><b>Pool hall</b>Two players you never see play 8-ball, and the slate above the table keeps the score.</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ LOCATION AND TIME OF DAY -->
+  <section id="day" class="band">
+    <div class="wrap">
+      <h2>Location and time of day</h2>
+      <p>Pick your town in the app, or type coordinates. The frame keeps the location in its own settings and works out sunrise, sunset and where the sun and moon stand without going online. Those times are good to about a minute. For the weather it sends only the coordinates to Open-Meteo, every 15 minutes, with no account or key. Turn the weather off and nothing is sent.</p>
+      <p>Scenes use all of this. Clocks turn amber at night. The koi pond gets a lantern and the moon after dark, and rain rings when it rains. Art &amp; weather picks a painting to suit the season, the weather and the hour. Quiet hours turn the screen off at night, and a schedule can switch the gallery, the filter or the screen for up to four parts of the day.</p>
+      <p>Without a location, sunrise and sunset are guessed as 6:30&nbsp;a.m. and 6:30&nbsp;p.m., and the weather faces say NO WEATHER and why. The frame has no clock battery, so after a power cut the clocks show &ldquo;Waiting for the time&rdquo; until it is back online.</p>
+      <p class="label"><span class="kind">Laptop renders</span>These were rendered on a laptop with the player&rsquo;s own code, for Paris with made-up weather.</p>
+
+      <h4>Koi pond</h4>
+      <div class="strip">
+        <figure><a class="frame" href="media/world/eo2-world-koi-afternoon.jpg"><img loading="lazy" decoding="async" src="media/world/thumb/eo2-world-koi-afternoon.jpg" srcset="media/world/thumb/eo2-world-koi-afternoon.jpg 360w, media/world/web/eo2-world-koi-afternoon.jpg 540w" sizes="(min-width: 720px) 190px, 31vw" width="360" height="640" alt="The koi pond on a clear afternoon, with sunlight rippling over the bottom"></a><figcaption>Afternoon</figcaption></figure>
+        <figure><a class="frame" href="media/world/eo2-world-koi-rain.jpg"><img loading="lazy" decoding="async" src="media/world/thumb/eo2-world-koi-rain.jpg" srcset="media/world/thumb/eo2-world-koi-rain.jpg 360w, media/world/web/eo2-world-koi-rain.jpg 540w" sizes="(min-width: 720px) 190px, 31vw" width="360" height="640" alt="The koi pond in heavy rain, with rings spreading on the water"></a><figcaption>Rain</figcaption></figure>
+        <figure><a class="frame" href="media/world/eo2-world-koi-night.jpg"><img loading="lazy" decoding="async" src="media/world/thumb/eo2-world-koi-night.jpg" srcset="media/world/thumb/eo2-world-koi-night.jpg 360w, media/world/web/eo2-world-koi-night.jpg 540w" sizes="(min-width: 720px) 190px, 31vw" width="360" height="640" alt="The koi pond at night, with the moon on the water"></a><figcaption>Night</figcaption></figure>
+      </div>
+
+      <h4>Sky window</h4>
+      <p class="sub">A photographic sky with the sun and moon where they really stand, the stars, and clouds taken from the forecast.</p>
+      <div class="strip">
+        <figure><a class="frame" href="media/world/eo2-world-sky-window-dawn.jpg"><img loading="lazy" decoding="async" src="media/world/thumb/eo2-world-sky-window-dawn.jpg" srcset="media/world/thumb/eo2-world-sky-window-dawn.jpg 360w, media/world/web/eo2-world-sky-window-dawn.jpg 540w" sizes="(min-width: 720px) 190px, 31vw" width="360" height="640" alt="The sky window at dawn: a band of orange light over dark woods"></a><figcaption>Dawn</figcaption></figure>
+        <figure><a class="frame" href="media/world/eo2-world-sky-window-midday.jpg"><img loading="lazy" decoding="async" src="media/world/thumb/eo2-world-sky-window-midday.jpg" srcset="media/world/thumb/eo2-world-sky-window-midday.jpg 360w, media/world/web/eo2-world-sky-window-midday.jpg 540w" sizes="(min-width: 720px) 190px, 31vw" width="360" height="640" alt="The sky window at midday, with white clouds in a blue sky"></a><figcaption>Midday</figcaption></figure>
+        <figure><a class="frame" href="media/world/eo2-world-sky-window-sunset.jpg"><img loading="lazy" decoding="async" src="media/world/thumb/eo2-world-sky-window-sunset.jpg" srcset="media/world/thumb/eo2-world-sky-window-sunset.jpg 360w, media/world/web/eo2-world-sky-window-sunset.jpg 540w" sizes="(min-width: 720px) 190px, 31vw" width="360" height="640" alt="The sky window at sunset, with pink clouds over the woods"></a><figcaption>Sunset</figcaption></figure>
+        <figure><a class="frame" href="media/world/eo2-world-sky-window-night.jpg"><img loading="lazy" decoding="async" src="media/world/thumb/eo2-world-sky-window-night.jpg" srcset="media/world/thumb/eo2-world-sky-window-night.jpg 360w, media/world/web/eo2-world-sky-window-night.jpg 540w" sizes="(min-width: 720px) 190px, 31vw" width="360" height="640" alt="The sky window at night, with the moon over dark woods"></a><figcaption>Night</figcaption></figure>
+      </div>
+
+      <h4>Weather now</h4>
+      <div class="strip">
+        <figure><a class="frame" href="media/world/eo2-world-weather-sun.jpg"><img loading="lazy" decoding="async" src="media/world/thumb/eo2-world-weather-sun.jpg" srcset="media/world/thumb/eo2-world-weather-sun.jpg 360w, media/world/web/eo2-world-weather-sun.jpg 540w" sizes="(min-width: 720px) 190px, 31vw" width="360" height="640" alt="Weather now on a clear day: 24 degrees, the high and low, wind, humidity, sunrise and sunset"></a><figcaption>Sun</figcaption></figure>
+        <figure><a class="frame" href="media/world/eo2-world-weather-rain.jpg"><img loading="lazy" decoding="async" src="media/world/thumb/eo2-world-weather-rain.jpg" srcset="media/world/thumb/eo2-world-weather-rain.jpg 360w, media/world/web/eo2-world-weather-rain.jpg 540w" sizes="(min-width: 720px) 190px, 31vw" width="360" height="640" alt="Weather now in the rain: 14 degrees, the high and low, wind, humidity and an 80 percent chance of rain"></a><figcaption>Rain</figcaption></figure>
+        <figure><a class="frame" href="media/world/eo2-world-weather-snow.jpg"><img loading="lazy" decoding="async" src="media/world/thumb/eo2-world-weather-snow.jpg" srcset="media/world/thumb/eo2-world-weather-snow.jpg 360w, media/world/web/eo2-world-weather-snow.jpg 540w" sizes="(min-width: 720px) 190px, 31vw" width="360" height="640" alt="Weather now in snow: minus 3 degrees, the high and low, wind, humidity and the rain chance"></a><figcaption>Snow</figcaption></figure>
+      </div>
+
+      <h4>Shadow play</h4>
+      <p class="sub">The real sun places the patch of light and sets its color, white at noon and gold when the sun is low.</p>
+      <div class="strip">
+        <figure><a class="frame" href="media/world/eo2-world-shadowplay-morning.jpg"><img loading="lazy" decoding="async" src="media/world/thumb/eo2-world-shadowplay-morning.jpg" srcset="media/world/thumb/eo2-world-shadowplay-morning.jpg 360w, media/world/web/eo2-world-shadowplay-morning.jpg 540w" sizes="(min-width: 720px) 190px, 31vw" width="360" height="640" alt="Shadow play in the morning: leaf shadows in a white patch of sun on the wall"></a><figcaption>Morning</figcaption></figure>
+        <figure><a class="frame" href="media/world/eo2-world-shadowplay-evening.jpg"><img loading="lazy" decoding="async" src="media/world/thumb/eo2-world-shadowplay-evening.jpg" srcset="media/world/thumb/eo2-world-shadowplay-evening.jpg 360w, media/world/web/eo2-world-shadowplay-evening.jpg 540w" sizes="(min-width: 720px) 190px, 31vw" width="360" height="640" alt="Shadow play in the evening: the patch of light sits higher on the wall and has turned gold"></a><figcaption>Evening</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ FILTERS -->
+  <section id="filters" class="band band--wall">
+    <div class="wrap">
+      <h2>Filters</h2>
+      <p>Everything the frame shows passes through one filter. Original leaves the picture alone. The rest come in five families: Light, Film, Print, Mat and Pixel. You can set a filter for the whole wall, for one gallery or for a single piece, and the schedule can change it, for example to Evening from 9&nbsp;p.m.</p>
+      <p>Some filters only touch some pieces. Risograph and Newsprint change still pictures only, film grain doesn&rsquo;t show on anything that moves, and the picker grays out a filter that would do nothing to the piece on the wall.</p>
+      <p class="label"><span class="kind">Laptop renders</span>These were rendered on a laptop through the player&rsquo;s own code. The picture is Hiroshige&rsquo;s <cite>Plum Garden at Kameido</cite>, cropped to fill the panel.</p>
+      <div class="cycle">
+        <figure class="lead"><a class="frame" href="media/looks/eo2-filters-cycle-1080.mp4" aria-label="Ten filters in turn, full-size video"><video muted loop playsinline preload="none" data-poster="media/looks/eo2-filters-cycle.jpg" src="media/looks/eo2-filters-cycle.mp4"></video></a>
+          <figcaption><b>Ten filters in turn</b>Original, Gallery light, Evening, Black &amp; white, Sepia, Cyanotype, Risograph, Newsprint, Linen and Sage, on the same picture.</figcaption></figure>
+        <figure><a class="frame" href="media/looks/eo2-filter-original.jpg"><img loading="lazy" decoding="async" src="media/looks/thumb/eo2-filter-original.jpg" srcset="media/looks/thumb/eo2-filter-original.jpg 360w, media/looks/web/eo2-filter-original.jpg 540w" sizes="(min-width: 1024px) 200px, 45vw" width="360" height="640" alt="Plum Garden at Kameido with no filter"></a>
+          <figcaption><b>Original</b></figcaption></figure>
+        <figure><a class="frame" href="media/looks/eo2-filter-gallery.jpg"><img loading="lazy" decoding="async" src="media/looks/thumb/eo2-filter-gallery.jpg" srcset="media/looks/thumb/eo2-filter-gallery.jpg 360w, media/looks/web/eo2-filter-gallery.jpg 540w" sizes="(min-width: 1024px) 200px, 45vw" width="360" height="640" alt="Plum Garden at Kameido under Gallery light: warmer, with the edges in shade"></a>
+          <figcaption><b>Gallery light</b>The edges fall into shade, as under a museum&rsquo;s picture light.</figcaption></figure>
+        <figure><a class="frame" href="media/looks/eo2-filter-film_bw.jpg"><img loading="lazy" decoding="async" src="media/looks/thumb/eo2-filter-film_bw.jpg" srcset="media/looks/thumb/eo2-filter-film_bw.jpg 360w, media/looks/web/eo2-filter-film_bw.jpg 540w" sizes="(min-width: 1024px) 200px, 45vw" width="360" height="640" alt="Plum Garden at Kameido in black and white"></a>
+          <figcaption><b>Black &amp; white</b>The Film filters add a fine grain to still pictures.</figcaption></figure>
+        <figure><a class="frame" href="media/looks/eo2-filter-cyanotype.jpg"><img loading="lazy" decoding="async" src="media/looks/thumb/eo2-filter-cyanotype.jpg" srcset="media/looks/thumb/eo2-filter-cyanotype.jpg 360w, media/looks/web/eo2-filter-cyanotype.jpg 540w" sizes="(min-width: 1024px) 200px, 45vw" width="360" height="640" alt="Plum Garden at Kameido as a cyanotype, in Prussian blue and white"></a>
+          <figcaption><b>Cyanotype</b>The picture becomes a sun print in Prussian blue.</figcaption></figure>
+        <figure><a class="frame" href="media/looks/eo2-filter-riso.jpg"><img loading="lazy" decoding="async" src="media/looks/thumb/eo2-filter-riso.jpg" srcset="media/looks/thumb/eo2-filter-riso.jpg 360w, media/looks/web/eo2-filter-riso.jpg 540w" sizes="(min-width: 1024px) 200px, 45vw" width="360" height="640" alt="Plum Garden at Kameido as a risograph print in pink and blue halftone dots"></a>
+          <figcaption><b>Risograph</b>Two inks go through halftone screens, and only still pictures change.</figcaption></figure>
+        <figure><a class="frame" href="media/looks/eo2-filter-mat_linen.jpg"><img loading="lazy" decoding="async" src="media/looks/thumb/eo2-filter-mat_linen.jpg" srcset="media/looks/thumb/eo2-filter-mat_linen.jpg 360w, media/looks/web/eo2-filter-mat_linen.jpg 540w" sizes="(min-width: 1024px) 200px, 45vw" width="360" height="640" alt="Plum Garden at Kameido in a linen mat"></a>
+          <figcaption><b>Linen</b>The mat has a beveled edge and casts a soft shadow.</figcaption></figure>
+      </div>
+
+      <h3 id="pixel">Pixel filters</h3>
+      <p class="sub">The Pixel filters redraw pictures and scenes as a grid of dots, 54 across and 96 down by default. Besides LED dots, others copy old screens: a vacuum fluorescent display, a green handheld LCD, CRT scanlines, an amber terminal and a 16-color fantasy console. Each keeps its own settings for dot shape, spacing and glow, and all of them run scenes at up to 30 frames a second.</p>
+      <p class="label"><span class="kind">Laptop renders</span>These were also rendered on a laptop through the player&rsquo;s own code. The subject is the ocean sunset, one of the original pixel scenes.</p>
+      <div class="cycle">
+        <figure class="lead"><a class="frame" href="media/looks/eo2-modes-cycle-1080.mp4" aria-label="Eight Pixel filters in turn, full-size video"><video muted loop playsinline preload="none" data-poster="media/looks/eo2-modes-cycle.jpg" src="media/looks/eo2-modes-cycle.mp4"></video></a>
+          <figcaption><b>Eight Pixel filters in turn</b>LED dots, Neon, Vacuum fluorescent, LCD grid, Green handheld LCD, CRT scanlines, Amber monochrome and Fantasy console, on the same scene.</figcaption></figure>
+        <figure><a class="frame" href="media/looks/eo2-mode-led.jpg"><img loading="lazy" decoding="async" src="media/looks/thumb/eo2-mode-led.jpg" srcset="media/looks/thumb/eo2-mode-led.jpg 360w, media/looks/web/eo2-mode-led.jpg 540w" sizes="(min-width: 1024px) 200px, 45vw" width="360" height="640" alt="The ocean sunset scene in round LED dots"></a>
+          <figcaption><b>LED dots</b>The default.</figcaption></figure>
+        <figure><a class="frame" href="media/looks/eo2-mode-vfd.jpg"><img loading="lazy" decoding="async" src="media/looks/thumb/eo2-mode-vfd.jpg" srcset="media/looks/thumb/eo2-mode-vfd.jpg 360w, media/looks/web/eo2-mode-vfd.jpg 540w" sizes="(min-width: 1024px) 200px, 45vw" width="360" height="640" alt="The ocean sunset scene as blue-green glowing segments on black"></a>
+          <figcaption><b>Vacuum fluorescent</b>Blue-green segments glow on black, like an old stereo display.</figcaption></figure>
+        <figure><a class="frame" href="media/looks/eo2-mode-green-lcd.jpg"><img loading="lazy" decoding="async" src="media/looks/thumb/eo2-mode-green-lcd.jpg" srcset="media/looks/thumb/eo2-mode-green-lcd.jpg 360w, media/looks/web/eo2-mode-green-lcd.jpg 540w" sizes="(min-width: 1024px) 200px, 45vw" width="360" height="640" alt="The ocean sunset scene in four shades of pea green"></a>
+          <figcaption><b>Green handheld LCD</b>The palette has four pea greens, with dithering and a little ghosting.</figcaption></figure>
+        <figure><a class="frame" href="media/looks/eo2-mode-crt.jpg"><img loading="lazy" decoding="async" src="media/looks/thumb/eo2-mode-crt.jpg" srcset="media/looks/thumb/eo2-mode-crt.jpg 360w, media/looks/web/eo2-mode-crt.jpg 540w" sizes="(min-width: 1024px) 200px, 45vw" width="360" height="640" alt="The ocean sunset scene as bright beams over dark scanlines"></a>
+          <figcaption><b>CRT scanlines</b>Bright beams sit over dark scanlines, like an arcade monitor.</figcaption></figure>
+        <figure><a class="frame" href="media/looks/eo2-mode-amber.jpg"><img loading="lazy" decoding="async" src="media/looks/thumb/eo2-mode-amber.jpg" srcset="media/looks/thumb/eo2-mode-amber.jpg 360w, media/looks/web/eo2-mode-amber.jpg 540w" sizes="(min-width: 1024px) 200px, 45vw" width="360" height="640" alt="The ocean sunset scene in amber on black"></a>
+          <figcaption><b>Amber monochrome</b>The old picture fades slowly when a new one arrives, like phosphor afterglow.</figcaption></figure>
+        <figure><a class="frame" href="media/looks/eo2-mode-fantasy.jpg"><img loading="lazy" decoding="async" src="media/looks/thumb/eo2-mode-fantasy.jpg" srcset="media/looks/thumb/eo2-mode-fantasy.jpg 360w, media/looks/web/eo2-mode-fantasy.jpg 540w" sizes="(min-width: 1024px) 200px, 45vw" width="360" height="640" alt="The ocean sunset scene in a dithered 16-color palette"></a>
+          <figcaption><b>Fantasy console</b>Every color comes from a fixed 16-color palette, with dithering.</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ THE PHONE APP -->
+  <section id="app" class="band">
+    <div class="wrap">
+      <h2>The phone app</h2>
+      <p>The app is a web page that the frame serves itself. Open <code>eo2.local</code> on a phone on the same Wi-Fi and add it to the Home Screen. There are three tabs: Control, Collection and Settings.</p>
+      <p>Control is the remote, with Previous, Favourite, This piece and Next, and an Up next row with Skip. The Collection holds the galleries, sorted into wings, and takes photos and videos from the camera roll. Leave a note puts a short message over the art for a minute, in one of seven styles, such as LED letters or a newspaper headline. With Now playing set up, the frame can show the track you&rsquo;re playing on Jellyfin, Spotify or Home Assistant. A PIN is optional. Once it&rsquo;s set, every change needs it.</p>
+      <p class="label"><span class="kind">Demo copy</span>The screenshots come from a demo copy of the player on a laptop, with only public content and a made-up date and place.</p>
+      <div class="phones phones--six">
+        <figure><a class="phone" href="media/app/eo2-app-control.png"><img loading="lazy" decoding="async" src="media/app/web/eo2-app-control.jpg" width="390" height="844" alt="The Control tab with Hokusai's Cranes on Snow-Covered Pine on the wall, the Previous, Favourite, This piece and Next keys, the Up next row and the Screen, Filter and Auto-brightness tiles"></a>
+          <figcaption><b>Control</b>Tap the picture for the piece&rsquo;s own options, including a filter of its own.</figcaption></figure>
+        <figure><a class="phone" href="media/app/eo2-app-collection.png"><img loading="lazy" decoding="async" src="media/app/web/eo2-app-collection.jpg" width="390" height="844" alt="The Collection tab: the piece on the wall at the top, the wing chips, and five galleries in the Pictures wing"></a>
+          <figcaption><b>Collection</b>The wings are Pictures, Living scenes, Games and Clocks &amp; notes.</figcaption></figure>
+        <figure><a class="phone" href="media/app/eo2-app-gallery.png"><img loading="lazy" decoding="async" src="media/app/web/eo2-app-gallery.jpg" width="390" height="844" alt="The Japanese woodblock prints gallery: 38 prints, on the wall with one other gallery, with Hang only this and Take it down"></a>
+          <figcaption><b>A gallery</b>Several galleries can hang at once, in order, shuffled or by share.</figcaption></figure>
+        <figure><a class="phone" href="media/app/eo2-app-filter-picker.png"><img loading="lazy" decoding="async" src="media/app/web/eo2-app-filter-picker.jpg" width="390" height="844" alt="The filter picker with the Print family open and Cyanotype picked; the preview behind it has already turned blue"></a>
+          <figcaption><b>Filter picker</b>The frame switches as soon as you tap, and the line under the strip says what the filter does.</figcaption></figure>
+        <figure><a class="phone" href="media/app/eo2-app-scenes.png"><img loading="lazy" decoding="async" src="media/app/web/eo2-app-scenes.jpg" width="390" height="844" alt="All live pieces, scrolled to the loop scenes: campfire, aquarium, city night, snow forest, space, garden, rainy window, lighthouse, koi pond and more"></a>
+          <figcaption><b>All live pieces</b>The frame draws a loop scene once, a few seconds long, and repeats it.</figcaption></figure>
+        <figure><a class="phone" href="media/app/eo2-app-settings-moments.png"><img loading="lazy" decoding="async" src="media/app/web/eo2-app-settings-moments.jpg" width="390" height="844" alt="Settings, Moments: the clockwork styles to choose from, with the Bavarian glockenspiel picked"></a>
+          <figcaption><b>Moments</b>You can set up to 12, on the hour or at set times, with a window when they stay quiet.</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ ADDING YOUR OWN -->
+  <section id="yours" class="band band--alt">
+    <div class="wrap">
+      <h2>Adding your own</h2>
+      <p>Packs, scenes, sources and web pages are all plain files, and the frame has an HTTP API for everything the app does. None of this is published yet. When the source code and the project catalog are public, this page will link to them.</p>
+
+      <h3 id="packs">Packs and catalogs</h3>
+      <div class="split">
+        <div>
+          <p>Galleries come as packs. A pack is one <code>.eo2pack</code> file, a zip with a manifest, previews and the pieces, and each piece can carry its title, credit, license and source. A catalog is a plain <code>index.json</code> that lists packs. It can live on any static web host, on a computer at home or on the frame itself.</p>
+          <p>You add a pack from the app&rsquo;s Catalog, from a file on your phone or from a link. The frame checks every file&rsquo;s size and checksum before anything reaches the collection, and a pack goes in whole or not at all. Updating or removing a pack leaves the files you&rsquo;ve edited alone.</p>
+          <p>The project&rsquo;s catalog has eleven galleries so far. Two hold scenes. The other nine are public-domain art, and each work&rsquo;s public-domain status is checked again at its source when the pack is built:</p>
+          <ul class="packs">
+            <li>Public domain paintings (28)</li>
+            <li>Impressionists (34)</li>
+            <li>Dutch and Flemish masters (33)</li>
+            <li>Japanese woodblock prints (38)</li>
+            <li>Old masters and Renaissance (35)</li>
+            <li>Landscapes and skies (59)</li>
+            <li>Western landscapes (66)</li>
+            <li>Cabinet of art (69)</li>
+            <li>Street art, public domain (56)</li>
+          </ul>
+        </div>
+        <figure><a class="phone" href="media/app/eo2-app-catalog.png"><img loading="lazy" decoding="async" src="media/app/web/eo2-app-catalog.jpg" width="390" height="844" alt="The Catalog: the Dutch and Flemish masters pack, already in the collection, with its preview sheet of portraits open"></a>
+          <figcaption><b>Catalog</b>Scene galleries carry a contains-code badge, and the frame asks before adding one.<span class="label"><span class="kind">Demo copy</span>From the demo copy of the player on a laptop.</span></figcaption></figure>
+      </div>
+
+      <h3 id="scenes">Scenes</h3>
+      <div class="split">
+        <div>
+          <p>A scene is a small Python file. A live scene defines <code>frame(i)</code>, which returns the picture for frame number <code>i</code> as an array of colors. Put the file in a folder on the frame, or upload it from the phone (that needs the PIN and your OK), and add it to a gallery. Scenes can also draw at full resolution and read the time, the sun and the weather.</p>
+          <pre><code>import numpy as np
+
+COLS, ROWS = 54, 96
+FPS = 30
+
+_y, _x = np.mgrid[0:ROWS, 0:COLS].astype(np.float32)
+
+
+def frame(i):
+    t = i / FPS
+    <span class="c"># three slow waves ...</span>
+    np.sin(_x / 7.0 + t * 0.6, out=_v)
+    np.sin(_y / 9.0 - t * 0.8, out=_t)
+    np.add(_v, _t, out=_v)
+    np.sin((_x + _y) / 13.0 + t * 0.4, out=_t)
+    <span class="c"># ... summed: -3..3</span>
+    np.add(_v, _t, out=_v)
+    <span class="c"># one palette turn across the range</span>
+    np.multiply(_v, 256 / 6.0, out=_v)
+    <span class="c"># and the palette slowly turns</span>
+    np.add(_v, 128 + i * 0.4, out=_v)
+    return PALETTE[_v.astype(np.int32) &amp; 255]</code></pre>
+          <p class="sub">The core of <code>plasma_live.py</code>. The palette and the scratch arrays <code>_v</code> and <code>_t</code> are set up a few lines above.</p>
+          <p>A scene is a program with access to your network, so an uploaded one only runs after a PIN is set and you confirm it.</p>
+        </div>
+        <figure><a class="frame" href="media/community/eo2-plasma-dots-1080.mp4" aria-label="The plasma scene in LED dots, full-size video"><video muted loop playsinline preload="none" data-poster="media/community/eo2-plasma-dots.jpg" src="media/community/eo2-plasma-dots.mp4"></video></a>
+          <figcaption><b>Plasma</b>On the frame the scene runs at about 25 frames a second.<span class="label"><span class="kind">Laptop render</span>This clip was rendered on a laptop.</span></figcaption></figure>
+      </div>
+
+      <h3 id="sources">Sources and web pages</h3>
+      <p>Integrations fill a gallery from somewhere else: the Art Institute of Chicago, The Met, Wikimedia Commons, RSS and other feeds, a folder, or an Immich server. A new source is one Python file that brings its own settings form to the app. The Lorem Picsum example is about 30 lines. Adding one needs SSH for now.</p>
+      <p>A web page can hang like a picture. A <code>.web.json</code> file points at any page, or at one of the bundled ones: weather, an agenda, a note, picture of the day, words for the day, Home Assistant tiles or generative art. The frame renders the page for the panel and refreshes it while it&rsquo;s up.</p>
+
+      <h3 id="api">HTTP API and Home Assistant</h3>
+      <p>Everything the app does goes through a documented HTTP API, so a script can do it too. The API also stays compatible with the community Android launcher for these frames. This puts BACK AT 6 on the frame as a neon sign, with the last word blinking:</p>
+      <pre><code>curl -H 'X-Requested-With: eo2' \
+  -d 'text=BACK AT 6' \
+  -d 'style=neon' -d 'effect=blink' \
+  http://eo2.local:8080/pixel</code></pre>
+      <p>The frame refuses changes that don&rsquo;t carry that header or the PIN, so a web page open in your browser can&rsquo;t drive it. For Home Assistant the frame serves a ready-made package at <code>/ha/package.yaml</code>, with a now-showing sensor, a screen switch, a Next button and a gallery picker. Home Assistant can also push notes, and variables such as &ldquo;door open&rdquo; for scenes to show.</p>
+    </div>
+  </section>
+
+  <!-- ============================================================ BRINGING A DEAD EO2 BACK -->
+  <section id="revive" class="band">
+    <div class="wrap">
+      <h2>Bringing a dead EO2 back</h2>
+      <div class="split">
+        <div>
+          <p>The install runs once, from a computer with Bluetooth and Python 3.9 or newer. The frame stays closed and no SD card is needed. One program does the work in about 40 minutes, most of it waiting. In order, it</p>
+          <ol class="install">
+            <li>sends your Wi-Fi details to the frame over Bluetooth, the way the old Electric Objects app did;</li>
+            <li>backs up the frame&rsquo;s original software onto the computer;</li>
+            <li>copies EO2 Linux onto the frame;</li>
+            <li>restarts the frame, which comes up with a Hello screen showing <code>eo2.local</code> and a QR code.</li>
+          </ol>
+          <p>Scan the code and the Set-up assistant on the phone takes you through eight short steps: a name for the frame, the galleries to hang, and Home Assistant if you use it. With the phone part, the whole job takes about an hour.</p>
+          <p>EO2 Linux is a small Alpine Linux system on the frame&rsquo;s own kernel. It boots from the recovery partition and leaves the original Android in place. If EO2 Linux fails to start three times in a row, the frame goes back to Android by itself, and a microSD rescue card is the last resort. The worst case is that Android starts again, which is where a dead EO2 already is.</p>
+        </div>
+        <figure><a class="phone" href="media/app/eo2-app-setup.png"><img loading="lazy" decoding="async" src="media/app/web/eo2-app-setup.jpg" width="390" height="844" alt="The Set-up assistant at step 4 of 8, The look: the piece on the wall in Original and in LED dots, with Back, Skip and Next"></a>
+          <figcaption><b>Set-up assistant</b>Every step can be skipped and run again later from Settings.<span class="label"><span class="kind">Demo copy</span>From the demo copy of the player on a laptop.</span></figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ STATUS -->
+  <section id="status" class="band band--alt">
+    <div class="wrap">
+      <h2>Status</h2>
+      <ul class="status">
+        <li>EO2 Linux isn&rsquo;t released. The code, the installer and the catalog aren&rsquo;t public yet, and this page will link to them when they are.</li>
+        <li>The installer has run end to end from a Linux computer. From Windows, Bluetooth contact with the frame works but the Wi-Fi hand-over hasn&rsquo;t been run. From a Mac, Bluetooth hasn&rsquo;t been tried on a real frame.</li>
+        <li>Only the EO2 is supported. The EO1 is different hardware, and the installer refuses it without changing anything.</li>
+        <li>Updating means running the installer again. There are no over-the-air updates yet.</li>
+      </ul>
+      <dl class="spec">
+        <dt>The hardware</dt>
+        <dd>An Amlogic S805-family chip with four 32-bit ARM Cortex-A5 cores at up to 1.6&nbsp;GHz, under 1&nbsp;GB of RAM, 7.6&nbsp;GB of storage with about 4 to 5&nbsp;GB free for art, a 1080&times;1920 portrait panel, 2.4&nbsp;GHz Wi-Fi and a 12&nbsp;V 3&nbsp;A power supply. There is no usable speaker.</dd>
+        <dt>The software</dt>
+        <dd>Alpine Linux (armhf) on the frame&rsquo;s original Linux 3.10 kernel. The player is Python 3.12 with numpy and Pillow, with some C and NEON code for drawing the dots and copying frames to the screen.</dd>
+      </dl>
+      <p class="more"><a href="./">&larr; Back to the overview</a></p>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <img class="wm" src="img/wordmark.svg" width="168" height="40" alt="EO2 Linux">
+    <p class="status-line"><b>Not released yet.</b> The installer has run end to end from a Linux computer. Windows and Mac aren&rsquo;t proven yet, and only the EO2 is supported.</p>
+    <nav aria-label="Footer"><a href="./">The overview</a><a href="#status">The full status</a><a href="#top">Back to the top</a></nav>
+    <div class="credits">
+      <p>The art shown is in the public domain: CC0 images from the Art Institute of Chicago and The Metropolitan Museum of Art. The scenes, clocks and games are original work for EO2 Linux. Weather comes from <a href="https://open-meteo.com/">Open-Meteo.com</a>, whose data is licensed CC BY 4.0.</p>
+      <p>The picture in the Filters section is Utagawa Hiroshige, <cite>Plum Garden at Kameido</cite>, from the series <cite>One Hundred Famous Views of Edo</cite>, 1857, Art Institute of Chicago (CC0).</p>
+      <p>EO2 Linux builds on the community Android launcher for Electric Objects frames (<a href="https://github.com/aphex3k/EO1">aphex3k/EO1</a>) and keeps its HTTP API. Thanks also to <a href="https://www.reddit.com/r/electricobjects/">r/electricobjects</a>.</p>
+      <p>EO2 Linux is an independent project by an EO2 owner. It is not affiliated with or endorsed by Electric Objects or Giphy. Electric Objects and EO2 are trademarks of their owners.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="site.js" defer></script>
+</body>
+</html>
